@@ -10,7 +10,7 @@ generator client {
 model Video {
   id        Int      @id @default(autoincrement())
   name      String
-  url       String
-  votes     Int
-  length    Int
+  genre      String
+  pubdate    String
+  
 }

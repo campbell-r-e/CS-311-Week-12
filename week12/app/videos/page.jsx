@@ -10,12 +10,16 @@ export default async function Page( ) {
             <a href={"/videos/video/"+video.id}>{video.name}</a>
             <a href={"/videos/update/"+video.id}>[edit]</a>
         </li> 
+
     )
 
     return( <div>  
         <h2>Videos</h2>
-        <ul>
-            {videoList}
-        </ul>
+    
+
+        <form> 
+        {videoList}
+
+        </form>
     </div> )
 }
